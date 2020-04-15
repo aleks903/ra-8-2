@@ -1,0 +1,17 @@
+* {
+  box-sizing: content-box;
+}
+
+#root {
+  display: flex;
+}
+
+#root div {
+  width: 150px;
+  padding: 10px;
+}
+
+#root p {
+  text-align: center;
+  border-bottom: 1px solid;
+}
