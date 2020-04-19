@@ -8,8 +8,10 @@ export default function DataComponent(props) {
   console.log(data);
   return (
     <div>
-      <p>Data</p>
+      <p>Component</p>
       <span>{data}</span>
+      <span>{loading && 'Loading...'}</span>
+      <span>{error}</span>
     </div>
   );
 }
